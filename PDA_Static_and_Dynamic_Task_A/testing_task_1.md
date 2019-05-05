@@ -6,7 +6,7 @@
 
 class CardGame
 
-
+#function name should be check_for_ace
   def checkforAce(card)
     if card.value = 1
       return true
@@ -15,6 +15,7 @@ class CardGame
     end
   end
 
+#Spelt wrong should read def
   dif highest_card(card1 card2)
   if card1.value > card2.value
     return card
@@ -22,6 +23,7 @@ class CardGame
     return card2
   end
 end
+#one to many end statements or should be moved to the end of the class
 end
 
 def self.cards_total(cards)
@@ -31,4 +33,5 @@ def self.cards_total(cards)
     return "You have a total of" + total
   end
 end
+# missing end statement.
 ```
