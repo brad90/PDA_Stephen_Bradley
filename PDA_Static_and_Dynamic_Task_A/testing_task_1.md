@@ -4,10 +4,13 @@
 # Comment on any errors that you see below.
 ```ruby
 
+#missing the initialize?
+
 class CardGame
 
 #function name should be check_for_ace
   def checkforAce(card)
+    # if card.value == 1
     if card.value = 1
       return true
     else
@@ -15,9 +18,10 @@ class CardGame
     end
   end
 
-#Spelt wrong should read def
+#Spelt wrong should read def, comma in between the two arguements.
   dif highest_card(card1 card2)
   if card1.value > card2.value
+    # This caught me out... return card?
     return card
   else
     return card2
@@ -27,9 +31,11 @@ end
 end
 
 def self.cards_total(cards)
+  #total has to equal something
   total
   for card in cards
     total += card.value
+    # this will need to be string interpolated and has to be after the end.
     return "You have a total of" + total
   end
 end
